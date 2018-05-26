@@ -1,7 +1,7 @@
 from setuptools import setup
 
 
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 
 install_requires = [
     "nose",
@@ -25,4 +25,9 @@ if __name__ == "__main__":
             ]
         },
         keywords=['nose', 'nosetest', 'pyannotate'],
+        classifiers=[
+            'Development Status :: 4 - Beta',
+            'License :: OSI Approved :: MIT License',
+            'Topic :: Software Development :: Testing :: Unit',
+        ],
     )
