@@ -17,11 +17,12 @@ if __name__ == "__main__":
         author_email="xiaket@gmail.com",
         url="https://github.com/xiaket/nose-pyannotate",
         description="Pyannotate plugin for nose",
-        py_modules = ['nose_pyannotate'],
+        py_modules=['nose_pyannotate'],
         install_requires=install_requires,
-        entry_points = {
+        entry_points={
             'nose.plugins': [
                 'pyannotateplug = nose_pyannotate:NoseAnnotatorPlugin'
             ]
         },
+        keywords=['nose', 'nosetest', 'pyannotate'],
     )
