@@ -28,5 +28,5 @@ Plugin nose-pyannotate
 Finally, run nose with the following flag to enable this plugin:
 
 ```
-nosetests --with-nose-annotate
+nosetests --with-nose-pyannotate
 ```
