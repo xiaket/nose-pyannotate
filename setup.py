@@ -8,6 +8,9 @@ install_requires = [
     "pyannotate",
 ]
 
+with open('README.md') as fobj:
+    long_description = fobj.read().strip()
+
 
 if __name__ == "__main__":
     setup(
@@ -17,6 +20,7 @@ if __name__ == "__main__":
         author_email="xiaket@gmail.com",
         url="https://github.com/xiaket/nose-pyannotate",
         description="Pyannotate plugin for nose",
+        long_description=long_description,
         py_modules=['nose_pyannotate'],
         install_requires=install_requires,
         entry_points={
